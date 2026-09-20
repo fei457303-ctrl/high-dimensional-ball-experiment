@@ -1,0 +1,5 @@
+numpy==2.3.5
+matplotlib==3.10.6
+torch==2.14.0
+jupyterlab==4.4.7
+ipykernel==6.31.0
