@@ -1,0 +1,28 @@
+{
+  "config": {
+    "d": 100,
+    "n": 10000,
+    "width": 512,
+    "seed": 42,
+    "loss": "MSE",
+    "training": "Full batch Adam, initial lr=0.001, halve lr after 21 non-improving checkpoints, max 6000 steps",
+    "target": 1e-06,
+    "torch": "2.14.0+cpu",
+    "numpy": "2.3.5",
+    "device": "cpu",
+    "threads": 4
+  },
+  "metrics": {
+    "initial_mse": 0.8959997892379761,
+    "training_mse": 9.995774234994315e-07,
+    "threshold_reached": true,
+    "iid_test_mse": 0.0004581458051688969,
+    "iid_test_mae": 0.01675691083073616,
+    "origin_prediction": 0.6966897249221802,
+    "radius_0_5_mae": 0.525127371430397,
+    "radius_1_mae": 0.018697978138923644,
+    "axis_left_prediction": 1.0060776472091675,
+    "axis_right_prediction": 0.9721882343292236,
+    "training_seconds": 158.63871549999976
+  }
+}
